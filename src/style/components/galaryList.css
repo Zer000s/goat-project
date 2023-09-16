@@ -1,0 +1,39 @@
+.galary-nav{
+    text-align: center;
+}
+
+.galary-nav a{
+    color: #FD8B05;
+    text-decoration: none;
+    font-size: 60px;
+    -webkit-text-stroke: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.photo{
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.photo::-webkit-scrollbar{
+    display: none;
+}
+
+.photo img{
+    display: inline-block;
+    width: 25%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1%;
+}
+
+@media (max-width: 769px) {
+    .photo img{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 3%;
+    }
+}

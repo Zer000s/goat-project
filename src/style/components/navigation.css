@@ -1,0 +1,35 @@
+.navbar-nav{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #FD8B05;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.navbar-nav a:hover{
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.25s;
+}
+
+@media (max-width: 769px) {
+    .navbar-collapse.collapse.show{
+        height: 100vh;
+        transition: height 0.35s;
+    }
+    
+    .me-auto.navbar-nav{
+        position: relative;
+        top: 20%;
+        height: 50%;
+    }
+    
+    .me-auto.navbar-nav a{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}

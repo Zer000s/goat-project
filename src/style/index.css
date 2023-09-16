@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    background-color: #3E2E1E;
+    color: #FD8B05;
+    overflow: hidden;
+}

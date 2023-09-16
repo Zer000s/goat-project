@@ -1,0 +1,20 @@
+.link-social{
+    position: relative;
+    text-decoration: none;
+    font-size: 40px;
+    color: #FD8B05;
+    top: 30%;
+    margin-left: 5%;
+}
+
+@media (max-width: 769px) {
+    .footer-mob{
+        display: none;
+    }
+
+    .link-social{
+        top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }    
+}

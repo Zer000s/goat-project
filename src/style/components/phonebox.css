@@ -1,0 +1,82 @@
+.phone{
+    height: 80vh;
+}
+
+.phonebox{
+    position: relative;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    color: #3E2E1E;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.phonebox h1{
+    padding-top: 5%;
+    font-size: 80px;
+    -webkit-text-stroke: 2px;
+}
+
+.phonebox .input{
+    display: block;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 70%;
+    font-size: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.phonebox .input::-webkit-input-placeholder {
+    color: black;
+}
+
+.phonebox .linkText{
+    font-size: 30px;
+    color: #3E2E1E;
+    text-decoration: none;
+    -webkit-text-stroke: 2px;
+    border-style: none;
+    border-bottom-style: solid;
+}
+
+.phonebox .linkText:hover{
+    color: #FD8B05;
+    transition: 0.5s;
+}
+
+@media (max-width: 769px) {
+    .phone{
+        height: 95vh;
+    }
+    
+    .phonebox{
+        top: 20%;
+        width: 90%;
+        height: 400px;
+    }
+    
+    .phonebox h1{
+        font-size: 50px;
+    }
+    
+    .phonebox .input{
+        margin-top: 4%;
+        width: 90%;
+        font-size: 20px;
+    }
+    
+    .phonebox .linkText{
+        font-size: 25px;
+        color: #3E2E1E;
+    }
+}
